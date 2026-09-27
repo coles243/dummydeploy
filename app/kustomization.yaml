@@ -4,8 +4,5 @@ kind: Kustomization
 resources:
   - deployment.yaml
 
-replicas:
-  - name: deployment
-    count: 6
 
 
